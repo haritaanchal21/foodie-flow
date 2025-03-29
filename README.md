@@ -1,4 +1,4 @@
-# 🍔 QuickBite API
+# 🍔 Foodie-flow API
 
 A simple in-memory Food Delivery Order Management System built with **Node.js + Express**, created as part of a backend developer assignment.
 
@@ -17,6 +17,7 @@ A simple in-memory Food Delivery Order Management System built with **Node.js + 
 
 - npm install 
 - npm start
+
 ## 🚀 To test
 
 ✅ Your Actual API Endpoints
@@ -24,9 +25,9 @@ Here’s how your routes are structured now:
 
 Function	                    HTTP Method	URL
 Place Order	POST	            http://localhost:3000/orders
-Get Orders by Email	GET	        http://localhost:3000/orders/user?email=...
-View All Orders	GET	            http://localhost:3000/orders
-Cancel Order	POST	        http://localhost:3000/orders/cancel
+Get Orders by Email	GET	      http://localhost:3000/orders/user?email=...
+View All Orders	GET	          http://localhost:3000/orders
+Cancel Order	POST	          http://localhost:3000/orders/cancel
 Modify Delivery Address	POST	http://localhost:3000/orders/modify-address
 
 
